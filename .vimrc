@@ -17,6 +17,13 @@ set showmatch
 " Highlight searched text
 set hls
 
+" Search as you type
+set incsearch
+
+" Indenting
+set autoindent
+set smartindent
+
 " A tab produces a 4-space indentation
 set softtabstop=4
 set shiftwidth=4
