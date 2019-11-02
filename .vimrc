@@ -1,7 +1,7 @@
 " Highlight syntax
 syntax on   
 
-" https://github.com/ErichDonGubler/vim-sublime-monokai
+" https://github.com/erichdongubler/vim-sublime-monokai
 colorscheme sublimemonokai
 
 " No more beeping
