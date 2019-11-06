@@ -36,7 +36,7 @@ set laststatus=2
 " File path, timestamp, encoding, line+percentage
 set statusline=\ %F%m%r%h%w\ 
 set statusline+=\[%{strftime('%Y/%b/%d\ %a\ %I:%M\ %p')}\]\ 
-set statusline+=%=%({%{&ff}\|%{(&fenc==\"\"?&enc:&fenc).((exists(\"+bomb\")\ &&\ &bomb)?\",B\":\"\")}%k\|%Y}%)\
+set statusline+=%=%({%{&ff}\|%{(&fenc==\"\"?&enc:&fenc).((exists(\"+bomb\")\ &&\ &bomb)?\",B\":\"\")}%k\|%Y}%)
 set statusline+=%([%l,%v][%p%%]\ %)
 
 " Start vim at the last line edited
