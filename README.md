@@ -1,6 +1,6 @@
 # vimrc
 
-[![This project is personal](https://img.shields.io/badge/status-personal-important.svg)]
+![This project is personal](https://img.shields.io/badge/status-personal-important.svg)
 
 mixedconnection's vim setup
 
