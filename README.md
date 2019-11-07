@@ -7,5 +7,6 @@ mixedconnection's vim setup
 
     ln -s mixedconnections/.vimrc ~/.vimrc
     
-Then use your favorite plugin manager or download the [`colors/sublimemonokai.vim`](https://raw.githubusercontent.com/erichdongubler/vim-sublime-monokai/master/colors/sublimemonokai.vim)
-file and move it into your colors folder. Vim Monokai color scheme tries to be as faithful as possible to Sublime's Monokai syntax highlighting
+# Plugins
+
+
