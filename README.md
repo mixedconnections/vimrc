@@ -16,7 +16,7 @@ mixedconnection's vim setup
     
 # Plugins
 
-* [vim-plug](https://github.com/junegunn/vim-plug): Minimalist Vim plugin manager with the fast parallel installer..
+* [vim-plug](https://github.com/junegunn/vim-plug): Minimalist Vim plugin manager with the fast parallel installer.
 
 * [Nerd Tree](http://www.vim.org/scripts/script.php?script_id=1658): A tree explorer plugin for navigating the filesystem.
 
