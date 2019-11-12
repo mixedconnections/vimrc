@@ -24,10 +24,10 @@ set number              " Show line numbers
 set showmatch           " Show matching brackets
 set hls                 " Highlight searched text
 set incsearch           " Search as you type
-set ignorecase	         " ignore case when searching
-set nobackup		          " no *~ backup files
-set copyindent	         " copy the previous indentation on autoindenting
-set wildchar=<TAB>	     " start wild expansion in the command line using <TAB>
+set ignorecase          " ignore case when searching
+set nobackup            " no *~ backup files
+set copyindent          " copy the previous indentation on autoindenting
+set wildchar=<TAB>      " start wild expansion in the command line using <TAB>
 set wildmenu            " wild char completion menu
 
 " ignore these files while expanding wild chars
