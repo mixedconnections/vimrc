@@ -9,11 +9,11 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'ntpeters/vim-better-whitespace'
 Plug 'Yggdroot/indentLine'
 " Color schemes
- Plug 'dracula/vim', { 'as': 'dracula'  }
- Plug 'erichdongubler/vim-sublime-monokai', { 'as': 'monokai' }
- Plug 'flrnprz/plastic.vim', { 'as': 'plastic'  }
- Plug 'flrnprz/candid.vim', { 'as': 'candid'  }
- Plug 'joshdick/onedark.vim'
+Plug 'dracula/vim', { 'as': 'dracula'  }
+Plug 'erichdongubler/vim-sublime-monokai', { 'as': 'monokai' }
+Plug 'flrnprz/plastic.vim', { 'as': 'plastic'  }
+Plug 'flrnprz/candid.vim', { 'as': 'candid'  }
+Plug 'joshdick/onedark.vim'
 " Initialize plugin system
 call plug#end()
 
