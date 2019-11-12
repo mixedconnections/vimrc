@@ -19,14 +19,19 @@ call plug#end()
 
 " General Settings
 
-syntax on         " Highlight syntax
-set number        " Show line numbers
-set showmatch     " Show matching brackets
-set hls           " Highlight searched text
-set incsearch     " Search as you type
-set ignorecase	  " ignore case when searching
-set nobackup		  " no *~ backup files
-set copyindent	  " copy the previous indentation on autoindenting
+syntax on               " Highlight syntax
+set number              " Show line numbers
+set showmatch           " Show matching brackets
+set hls                 " Highlight searched text
+set incsearch           " Search as you type
+set ignorecase	         " ignore case when searching
+set nobackup		          " no *~ backup files
+set copyindent	         " copy the previous indentation on autoindenting
+set wildchar=<TAB>	     " start wild expansion in the command line using <TAB>
+set wildmenu            " wild char completion menu
+
+" ignore these files while expanding wild chars
+set wildignore=*.o,*.class,*.pyc
 
 " The endless search for the perfect colorscheme
 colorscheme dracula
@@ -64,6 +69,13 @@ if &term =~ '256color'
     " work properly when Vim is used inside tmux and GNU screen.
     set t_ut=
 endif
+
+filetype on           " Enable filetype detection
+filetype indent on    " Enable filetype-specific indenting
+filetype plugin on    " Enable filetype-specific plugins
+
+" auto reload vimrc when editing it
+autocmd! bufwritepost .vimrc source ~/.vimrc
 
 " Plugin settings
 map <F2> :NERDTreeToggle<CR>
