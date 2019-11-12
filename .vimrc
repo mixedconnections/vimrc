@@ -1,21 +1,39 @@
-" Highlight syntax
-syntax on
+" Specify a directory for plugins
+" " - For Neovim: stdpath('data') . '/plugged'
+" " - Avoid using standard Vim directory names like 'plugin'
+call plug#begin('~/.vim/plugged')
+Plug 'scrooloose/nerdtree'
+Plug 'mhinz/vim-signify'
+" Syntax plugins
+Plug 'jiangmiao/auto-pairs'
+Plug 'ntpeters/vim-better-whitespace'
+Plug 'Yggdroot/indentLine'
+" Color schemes
+ Plug 'dracula/vim', { 'as': 'dracula'  }
+ Plug 'erichdongubler/vim-sublime-monokai', { 'as': 'monokai' }
+ Plug 'flrnprz/plastic.vim', { 'as': 'plastic'  }
+ Plug 'flrnprz/candid.vim', { 'as': 'candid'  }
+ Plug 'joshdick/onedark.vim'
+" Initialize plugin system
+call plug#end()
 
-" No more beeping
+" General Settings
+
+syntax on         " Highlight syntax
+set number        " Show line numbers
+set showmatch     " Show matching brackets
+set hls           " Highlight searched text
+set incsearch     " Search as you type
+set ignorecase	  " ignore case when searching
+set nobackup		  " no *~ backup files
+set copyindent	  " copy the previous indentation on autoindenting
+
+" The endless search for the perfect colorscheme
+colorscheme dracula
+
+" disable sound on errors
 set visualbell
 set t_vb=
-
-" Show line numbers
-set number
-
-" Show matching brackets
-set showmatch
-
-" Highlight searched text
-set hls
-
-" Search as you type
-set incsearch
 
 " Indenting
 set autoindent
@@ -47,27 +65,9 @@ if &term =~ '256color'
     set t_ut=
 endif
 
-" Specify a directory for plugins
-" " - For Neovim: stdpath('data') . '/plugged'
-" " - Avoid using standard Vim directory names like 'plugin'
-call plug#begin('~/.vim/plugged')
-Plug 'scrooloose/nerdtree'
+" Plugin settings
 map <F2> :NERDTreeToggle<CR>
-Plug 'mhinz/vim-signify'
 " default updatetime 4000ms is not good for async update
 set updatetime=100
-" Syntax plugins
-Plug 'jiangmiao/auto-pairs'
-Plug 'ntpeters/vim-better-whitespace'
-let g:strip_whitespace_on_save=1
-Plug 'Yggdroot/indentLine'
 let g:indentLine_char_list = ['|', '¦', '┆', '┊']
-" Color schemes
- Plug 'dracula/vim', { 'as': 'dracula'  }
- Plug 'erichdongubler/vim-sublime-monokai', { 'as': 'monokai' }
- Plug 'flrnprz/plastic.vim', { 'as': 'plastic'  }
- Plug 'flrnprz/candid.vim', { 'as': 'candid'  }
- Plug 'joshdick/onedark.vim'
-" Initialize plugin system
-call plug#end()
-colorscheme dracula
+let g:strip_whitespace_on_save=1
