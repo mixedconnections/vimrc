@@ -64,9 +64,7 @@ mixedconnection's vim setup
 
 * [plastic-vim](https://github.com/flrnd/plastic.vim): VSCode Plastic theme port for vim/neovim
 
+# Contact
 
-
-
-
-
-
+Enjoy it, and if you have any question or comment, feel free to contact me.
+Happy Coding :)
