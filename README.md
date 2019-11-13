@@ -34,7 +34,7 @@ mixedconnection's vim setup
 
 * [ALE](https://github.com/dense-analysis/ale): Check syntax in Vim asynchronously and fix files
 
-
+* [vim-polygot](https://github.com/sheerun/vim-polyglot): A solid language pack for Vim.
 
 # Colorschemes
 
