@@ -12,7 +12,27 @@ mixedconnection's vim setup
 … then run the following in Vim:
 
     :source %
-    :PluginInstall
+    :PlugInstall
+
+# Updates
+
+* init or add new plugin
+
+   ```
+    :PlugInstall
+   ```
+
+* update
+
+   ```
+    :PlugUpdate
+   ```
+
+* update vim-plug itself
+
+    ```
+    :PlugUpgrade
+    ```
     
 # Plugins
 
