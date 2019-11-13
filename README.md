@@ -40,10 +40,6 @@ mixedconnection's vim setup
 
 * [Nerd Tree](http://www.vim.org/scripts/script.php?script_id=1658): A tree explorer plugin for navigating the filesystem.
 
-  Useful commands:   
-    `:Bookmark [name]` - bookmark any directory as name   
-    `:NERDTree [name]` - open the bookmark [name] in Nerd Tree   
-
 * [vim-signify](https://github.com/mhinz/vim-signify): Advanced plugin for showing VCS diffs in the SignColumn.
 
 * [auto-pairs](https://github.com/jiangmiao/auto-pairs): Vim plugin to insert or delete brackets, parens, quotes in pair 
@@ -63,6 +59,16 @@ mixedconnection's vim setup
 * [candid-vim](https://github.com/flrnd/candid.vim): A dark colorscheme with vibrant colors
 
 * [plastic-vim](https://github.com/flrnd/plastic.vim): VSCode Plastic theme port for vim/neovim
+
+# Mappings/Shortcuts
+
+I try to keep things as simple as possible, so I can focus more on coding. I don't claim that my setup is a brilliant example of vim usage. It just reflects how I use vim.
+
+* [Nerd Tree](http://www.vim.org/scripts/script.php?script_id=1658):
+
+  Useful commands:   
+    `:Bookmark [name]` - bookmark any directory as name   
+    `:NERDTree [name]` - open the bookmark [name] in Nerd Tree   
 
 # Contact
 
