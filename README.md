@@ -32,9 +32,13 @@ mixedconnection's vim setup
 
 * [indentLine](https://github.com/Yggdroot/indentLine): A vim plugin to display the indention levels with thin vertical lines
 
+* [ALE](https://github.com/dense-analysis/ale): Check syntax in Vim asynchronously and fix files
+
+
+
 # Colorschemes
 
-* [dracula-vim](https://github.com/dracula/vim): A dark theme for Vim
+* [dracula-vim](https://github.com/dracula/vim): A dark theme for Vim (my current favorite)
 
 * [candid-vim](https://github.com/flrnd/candid.vim): A dark colorscheme with vibrant colors
 
