@@ -36,7 +36,7 @@ mixedconnection's vim setup
 
 * [dracula-vim](https://github.com/dracula/vim): A dark theme for Vim
 
-* [candid-vim] (https://github.com/flrnd/candid.vim): A dark colorscheme with vibrant colors
+* [candid-vim](https://github.com/flrnd/candid.vim): A dark colorscheme with vibrant colors
 
 * [plastic-vim](https://github.com/flrnd/plastic.vim): VSCode Plastic theme port for vim/neovim
 
