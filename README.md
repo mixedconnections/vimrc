@@ -31,3 +31,18 @@ mixedconnection's vim setup
 * [vim-better-whitespace](https://github.com/ntpeters/vim-better-whitespace): Better whitespace highlighting for Vim
 
 * [indentLine](https://github.com/Yggdroot/indentLine): A vim plugin to display the indention levels with thin vertical lines
+
+# Colorschemes
+
+* [dracula-vim](https://github.com/dracula/vim): A dark theme for Vim
+
+* [candid-vim] (https://github.com/flrnd/candid.vim): A dark colorscheme with vibrant colors
+
+* [plastic-vim](https://github.com/flrnd/plastic.vim): VSCode Plastic theme port for vim/neovim
+
+
+
+
+
+
+
