@@ -62,9 +62,11 @@ mixedconnection's vim setup
 
 # Mappings/Shortcuts
 
-I try to keep things as simple as possible, so I can focus more on coding. I don't claim that my setup is a brilliant example of vim usage. It just reflects how I use vim.
+I try to keep things as simple as possible, so I can focus more on coding problems. I don't claim that my setup is a brilliant example of vim usage. It just reflects how I use vim.
 
 * [Nerd Tree](http://www.vim.org/scripts/script.php?script_id=1658):
+
+  Toggle NERDTree view: `map <F2> :NERDTreeToggle<CR>`
 
   Useful commands:   
     `:Bookmark [name]` - bookmark any directory as name   
