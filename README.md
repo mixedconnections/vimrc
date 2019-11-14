@@ -74,8 +74,8 @@ I try to keep things as simple as possible, so I can focus more on coding proble
     
 * [ALE](https://github.com/dense-analysis/ale)
 
-  Useful commands:
-    `:ALEFix` - auto-fix code in your current file
+  Useful commands:\
+    `:ALEFix` - auto-fix code in your current file\
     `:ALEFix <fixer>` - auto-fix code using a specific tool. `:ALEFix eslint` runs `eslint --fix`   
     `:ALEFixSuggest` - suggest supported tools for fixing code
     
