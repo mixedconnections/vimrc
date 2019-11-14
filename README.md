@@ -38,7 +38,7 @@ mixedconnection's vim setup
 
 * [vim-plug](https://github.com/junegunn/vim-plug): Minimalist Vim plugin manager with super-fast parallel installation.
 
-* [Nerd Tree](http://www.vim.org/scripts/script.php?script_id=1658): A tree explorer plugin for navigating the filesystem.
+* [Nerd Tree](https://github.com/scrooloose/nerdtree): A tree explorer plugin for navigating the filesystem.
 
 * [vim-signify](https://github.com/mhinz/vim-signify): Advanced plugin for showing VCS diffs in the SignColumn.
 
@@ -64,13 +64,15 @@ mixedconnection's vim setup
 
 I try to keep things as simple as possible, so I can focus more on coding problems. I don't claim that my setup is a brilliant example of vim usage. It just reflects how I use vim.
 
-* [Nerd Tree](http://www.vim.org/scripts/script.php?script_id=1658):
+* [Nerd Tree](https://github.com/scrooloose/nerdtree):
 
   Toggle NERDTree view: `map <F2> :NERDTreeToggle<CR>`
 
   Useful commands:   
     `:Bookmark [name]` - bookmark any directory as name   
     `:NERDTree [name]` - open the bookmark [name] in Nerd Tree   
+    
+* [Random color scheme](https://gist.github.com/ryanflorence/1381526): `map <F1> :call RandomColorScheme()<CR>`
 
 # Contact
 
