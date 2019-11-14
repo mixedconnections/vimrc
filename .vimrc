@@ -8,6 +8,9 @@ Plug 'mhinz/vim-signify'
 Plug 'jiangmiao/auto-pairs'
 Plug 'ntpeters/vim-better-whitespace'
 Plug 'Yggdroot/indentLine'
+Plug 'dense-analysis/ale'
+" Language bundles
+Plug 'sheerun/vim-polyglot'
 " Color schemes
 Plug 'dracula/vim', { 'as': 'dracula'  }
 Plug 'flrnprz/plastic.vim', { 'as': 'plastic'  }
@@ -82,3 +85,22 @@ map <F2> :NERDTreeToggle<CR>
 set updatetime=100
 let g:indentLine_char_list = ['|', '¦', '┆', '┊']
 let g:strip_whitespace_on_save=1
+let g:ale_linters = {
+    \   'sh': ['language-server'],
+    \   'python': ['pylint'],
+    \   'perl': ['syntax-check', 'perlcritic'],
+    \   'vim': ['vint'],
+    \   'yaml': ['yamllint'],
+    \}
+let g:ale_fixers = {
+    \   '*': ['remove_trailing_lines', 'trim_whitespace',],
+    \   'javascript': ['eslint'],
+    \   'json': ['prettier'],
+    \   'python': ['autopep8'],
+    \   'perl': ['perltidy'],
+    \   'sh': ['shfmt'],
+    \   'yaml': ['prettier'],
+    \}
+let b:ale_linters = ['pylint']
+let b:ale_fixers = ['autopep8']
+let b:ale_warn_about_trailing_whitespace = 0
