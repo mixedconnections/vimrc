@@ -72,6 +72,13 @@ I try to keep things as simple as possible, so I can focus more on coding proble
     `:Bookmark [name]` - bookmark any directory as name   
     `:NERDTree [name]` - open the bookmark [name] in Nerd Tree   
     
+* [ALE](https://github.com/dense-analysis/ale)
+
+  Useful commands:
+    `:ALEFix` - auto-fix code in your current file
+    `:ALEFix <fixer>` - auto-fix code using a specific tool. `:ALEFix eslint` runs `eslint --fix`   
+    `:ALEFixSuggest` - suggest supported tools for fixing code
+    
 * [Random color scheme](https://gist.github.com/ryanflorence/1381526): `map <F1> :call RandomColorScheme()<CR>`
 
 # Contact
