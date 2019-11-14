@@ -52,7 +52,7 @@ mixedconnection's vim setup
 
 * [vim-polygot](https://github.com/sheerun/vim-polyglot): A solid language pack for Vim.
 
-# Colorschemes
+# Color schemes
 
 * [dracula-vim](https://github.com/dracula/vim): A dark theme for Vim (my current favorite)
 
