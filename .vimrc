@@ -79,6 +79,13 @@ filetype plugin on    " Enable filetype-specific plugins
 " auto reload vimrc when editing it
 autocmd! bufwritepost .vimrc source ~/.vimrc
 
+function RandomColorScheme()
+    let mycolors = split(globpath(&rtp,"**/colors/*.vim"),"\n") 
+    exe 'so ' . mycolors[localtime() % len(mycolors)]
+    unlet mycolors
+endfunction
+map <F1> :call RandomColorScheme()<CR>
+
 " Plugin settings
 map <F2> :NERDTreeToggle<CR>
 " default updatetime 4000ms is not good for async update
