@@ -26,7 +26,8 @@ set number              " Show line numbers
 set showmatch           " Show matching brackets
 set hls                 " Highlight searched text
 set incsearch           " Search as you type
-set ignorecase          " ignore case when searching
+set ignorecase          " ignore case when searching except...
+set smartcase           " if Upper case chars are used... then check case
 set nobackup            " no *~ backup files
 set copyindent          " copy the previous indentation on autoindenting
 set wildchar=<TAB>      " start wild expansion in the command line using <TAB>
