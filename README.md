@@ -40,7 +40,7 @@ vim setup to expedite your workflow
 
 * [Nerd Tree](https://github.com/scrooloose/nerdtree): A tree explorer plugin for navigating the filesystem.
 
-* [vim-signify](https://github.com/mhinz/vim-signify): Advanced plugin for showing version control diffs in the SignColumn.
+* [vim-signify](https://github.com/mhinz/vim-signify): Advanced plugin for showing version control diffs in the "gutter" (sign column)
 
 * [auto-pairs](https://github.com/jiangmiao/auto-pairs): Vim plugin to insert or delete brackets, parens, quotes in pair 
 
