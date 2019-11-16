@@ -62,7 +62,7 @@ vim setup to expedite your workflow
 
 # Mappings/Shortcuts
 
-I try to keep things as simple as possible, so I can focus more on coding problems. I don't claim that my setup is a brilliant example of vim usage. It just reflects how I use vim.
+I try to keep things as simple as possible, so I can focus more on coding problems. Too many mappings are hard for me to remember. I don't claim that my setup is a brilliant example of vim usage. It just reflects how I use vim.
 
 * [Nerd Tree](https://github.com/scrooloose/nerdtree):
 
