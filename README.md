@@ -2,7 +2,7 @@
 
 ![This project is personal](https://img.shields.io/badge/status-personal-important.svg)
 
-mixedconnection's vim setup to expedite your workflow
+vim setup to expedite your workflow
 
 # Manually install
     git clone git@github.com:mixedconnections/vimrc.git
