@@ -87,8 +87,13 @@ function RandomColorScheme()
 endfunction
 map <F1> :call RandomColorScheme()<CR>
 
+function! UpdateColor()
+    execute "!sed -i 's/^colorscheme .*$/colorscheme " . g:colors_name . "/g' ~/.vimrc"
+endfunction
+map <F2> :call UpdateColor()<CR>
+
 " Plugin settings
-map <F2> :NERDTreeToggle<CR>
+map <F3> :NERDTreeToggle<CR>
 " default updatetime 4000ms is not good for async update
 set updatetime=100
 let g:indentLine_char_list = ['|', '¦', '┆', '┊']
