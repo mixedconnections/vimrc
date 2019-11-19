@@ -66,7 +66,7 @@ I try to keep things as simple as possible, so I can focus more on coding proble
 
 * [Nerd Tree](https://github.com/scrooloose/nerdtree):
 
-  Toggle NERDTree view: `map <F2> :NERDTreeToggle<CR>`
+  Toggle NERDTree view: `map <F3> :NERDTreeToggle<CR>`
 
   Useful commands:   
     `:Bookmark [name]` - bookmark any directory as name   
@@ -79,8 +79,11 @@ I try to keep things as simple as possible, so I can focus more on coding proble
     `:ALEFix <fixer>` - auto-fix code using a specific tool. `:ALEFix eslint` runs `eslint --fix`   
     `:ALEFixSuggest` - suggest supported tools for fixing code
     
-* [Random color scheme](https://gist.github.com/ryanflorence/1381526): `map <F1> :call RandomColorScheme()<CR>`
-
+* [Random color scheme](https://gist.github.com/ryanflorence/1381526): 
+   
+  Switch scheme: `map <F1> :call RandomColorScheme()<CR>`\
+  Save scheme (updates .vimrc): `map <F2> :call UpdateColor()<CR>`
+     
 # Contact
 
 Enjoy it, and if you have any question or comment, feel free to contact me.
