@@ -74,9 +74,9 @@ I try to keep things as simple as possible, so I can focus more on coding proble
     `:Bookmark [name]` - bookmark any directory as name   
     `:NERDTree [name]` - open the bookmark [name] in Nerd Tree  
   
-  [Nerd Tree Cheatsheet](https://gist.github.com/m3nd3s/3959966#file-nerdtree-mkd) 
+  [Nerd Tree cheatsheet](https://gist.github.com/m3nd3s/3959966#file-nerdtree-mkd) 
   
-* [vim-fugitive](https://github.com/tpope/vim-fugitive): [Cheatsheet](https://gist.github.com/NickSeagull/a44078d8611ff4fa31b75e3aa795f760)
+* [vim-fugitive cheatsheet](https://gist.github.com/NickSeagull/a44078d8611ff4fa31b75e3aa795f760)
     
 * [ALE](https://github.com/dense-analysis/ale)
 
