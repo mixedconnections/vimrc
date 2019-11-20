@@ -35,7 +35,7 @@ set wildchar=<TAB>      " start wild expansion in the command line using <TAB>
 set wildmenu            " wild char completion menu
 
 " ignore these files while expanding wild chars
-set wildignore=*.o,*.class,*.pyc
+set wildignore=*.pyc,*.o,*.obj,*.svn,*.swp,*.class,*.hg,*.DS_Store,*.min.*,*.class
 
 " The endless search for the perfect colorscheme
 colorscheme dracula
@@ -95,6 +95,7 @@ map <F2> :call UpdateColor()<CR>
 
 " Plugin settings
 map <F3> :NERDTreeToggle<CR>
+let NERDTreeRespectWildIgnore=1 
 " default updatetime 4000ms is not good for async update
 set updatetime=100
 let g:indentLine_char_list = ['|', '¦', '┆', '┊']
