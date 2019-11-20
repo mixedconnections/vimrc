@@ -4,6 +4,7 @@
 call plug#begin('~/.vim/plugged')
 Plug 'scrooloose/nerdtree'
 Plug 'mhinz/vim-signify'
+Plug 'tpope/vim-fugitive'
 " Syntax plugins
 Plug 'jiangmiao/auto-pairs'
 Plug 'ntpeters/vim-better-whitespace'
