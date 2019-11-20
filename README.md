@@ -50,6 +50,8 @@ vim setup to expedite your workflow
 
 * [ALE](https://github.com/dense-analysis/ale): Check syntax in Vim asynchronously and fix files
 
+* [vim-fugitive](https://github.com/tpope/vim-fugitive): A Git wrapper so awesome, it should be illegal
+
 * [vim-polygot](https://github.com/sheerun/vim-polyglot): A solid language pack for Vim.
 
 # Color schemes
@@ -73,6 +75,8 @@ I try to keep things as simple as possible, so I can focus more on coding proble
     `:NERDTree [name]` - open the bookmark [name] in Nerd Tree  
   
   [Nerd Tree Cheatsheet](https://gist.github.com/m3nd3s/3959966#file-nerdtree-mkd) 
+  
+* [vim-fugitive](https://github.com/tpope/vim-fugitive): [Cheatsheet](https://gist.github.com/NickSeagull/a44078d8611ff4fa31b75e3aa795f760)
     
 * [ALE](https://github.com/dense-analysis/ale)
 
