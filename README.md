@@ -70,7 +70,9 @@ I try to keep things as simple as possible, so I can focus more on coding proble
 
   Useful commands:   
     `:Bookmark [name]` - bookmark any directory as name   
-    `:NERDTree [name]` - open the bookmark [name] in Nerd Tree   
+    `:NERDTree [name]` - open the bookmark [name] in Nerd Tree  
+  
+  [Nerd Tree Cheatsheet](https://gist.github.com/m3nd3s/3959966#file-nerdtree-mkd) 
     
 * [ALE](https://github.com/dense-analysis/ale)
 
