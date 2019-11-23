@@ -22,7 +22,7 @@ Plug 'joshdick/onedark.vim'
 call plug#end()
 
 " General Settings
-
+set nocompatible        " Disable strange vi defaults
 syntax on               " Highlight syntax
 set number              " Show line numbers
 set showmatch           " Show matching brackets
