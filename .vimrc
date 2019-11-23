@@ -10,6 +10,7 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'ntpeters/vim-better-whitespace'
 Plug 'Yggdroot/indentLine'
 Plug 'dense-analysis/ale'
+Plug 'chrisbra/colorizer'
 " Language bundles
 Plug 'sheerun/vim-polyglot'
 " Color schemes
@@ -119,3 +120,4 @@ let g:ale_fixers = {
 let b:ale_linters = ['pylint']
 let b:ale_fixers = ['autopep8']
 let b:ale_warn_about_trailing_whitespace = 0
+let g:colorizer_auto_filetype='css,scss,html'
