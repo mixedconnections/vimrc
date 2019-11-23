@@ -52,6 +52,8 @@ vim setup to expedite your workflow
 
 * [vim-fugitive](https://github.com/tpope/vim-fugitive): A Git wrapper so awesome, it should be illegal
 
+* [colorizer](https://github.com/chrisbra/Colorizer): color hex codes and color names
+
 * [vim-polygot](https://github.com/sheerun/vim-polyglot): A solid language pack for Vim.
 
 # Color schemes
