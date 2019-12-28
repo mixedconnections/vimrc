@@ -101,6 +101,7 @@ let NERDTreeRespectWildIgnore=1
 set updatetime=100
 let g:indentLine_char_list = ['|', '¦', '┆', '┊']
 let g:strip_whitespace_on_save=1
+let g:strip_whitespace_confirm=0
 let g:ale_linters = {
     \   'sh': ['language-server'],
     \   'python': ['pylint'],
