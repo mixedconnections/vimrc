@@ -58,7 +58,7 @@ vim setup to expedite your workflow
 
 # Color schemes
 
-* [dracula-vim](https://github.com/dracula/vim): A dark theme for Vim (my current favorite)
+* [dracula-vim](https://github.com/dracula/vim): A dark theme for Vim (displayed below)
 
 * [candid-vim](https://github.com/flrnd/candid.vim): A dark colorscheme with vibrant colors
 
