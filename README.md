@@ -64,6 +64,10 @@ vim setup to expedite your workflow
 
 * [plastic-vim](https://github.com/flrnd/plastic.vim): VSCode Plastic theme port for vim/neovim
 
+<img width="1227" alt="screenshot" src="https://user-images.githubusercontent.com/833824/77176585-b147c500-6a9a-11ea-86e3-2444f0f74878.png">
+
+
+
 # Mappings/Shortcuts
 
 I try to keep things as simple as possible, so I can focus more on coding problems. Too many mappings and plugins are hard for me to remember. I don't claim that my setup is a brilliant example of vim usage. It just reflects how I use vim.
