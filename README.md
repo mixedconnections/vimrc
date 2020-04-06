@@ -5,9 +5,9 @@
 vim setup to expedite your workflow
 
 # Manually install
-    git clone git@github.com:mixedconnections/vimrc.git
+    git clone git@github.com:topunix/vimrc.git
 
-    ln -s mixedconnections/.vimrc ~/.vimrc
+    ln -s topunix/.vimrc ~/.vimrc
 
 … then run the following in Vim:
 
