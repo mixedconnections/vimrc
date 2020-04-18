@@ -5,6 +5,8 @@ call plug#begin('~/.vim/plugged')
 Plug 'scrooloose/nerdtree'
 Plug 'mhinz/vim-signify'
 Plug 'tpope/vim-fugitive'
+Plug 'mattn/webapi-vim'
+Plug 'mattn/vim-gist'
 " Syntax plugins
 Plug 'jiangmiao/auto-pairs'
 Plug 'ntpeters/vim-better-whitespace'
@@ -122,3 +124,7 @@ let b:ale_linters = ['pylint']
 let b:ale_fixers = ['autopep8']
 let b:ale_warn_about_trailing_whitespace = 0
 let g:colorizer_auto_filetype='css,scss,html'
+let g:gist_post_private = 1
+let g:gist_detect_filetype = 1
+let g:gist_open_browser_after_post = 1
+" let g_gist_browser_command = ' %URL%'
