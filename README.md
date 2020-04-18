@@ -52,6 +52,8 @@ vim setup to expedite your workflow
 
 * [vim-fugitive](https://github.com/tpope/vim-fugitive): A Git wrapper so awesome, it should be illegal
 
+* [vim-gist](https://github.com/mattn/vim-gist): Vim plugin for Gist
+
 * [colorizer](https://github.com/chrisbra/Colorizer): color hex codes and color names
 
 * [vim-polygot](https://github.com/sheerun/vim-polyglot): A solid language pack for Vim.
@@ -90,6 +92,12 @@ I try to keep things as simple as possible, so I can focus more on coding proble
     `:ALEFix` - auto-fix code in your current file\
     `:ALEFix <fixer>` - auto-fix code using a specific tool. `:ALEFix eslint` runs `eslint --fix`   
     `:ALEFixSuggest` - suggest supported tools for fixing code
+ 
+* [vim-gist](https://github.com/mattn/vim-gist) 
+
+  Useful commands:\
+    `:'<,'>Gist` - Post selected text to gist, using default privacy option, from visual mode.\
+    `:'<,'>Gist!` - Creates new post of selected text to gist, using default privacy option. The bang(!) creates new entry.
     
 * [Random color scheme](https://gist.github.com/ryanflorence/1381526): 
    
