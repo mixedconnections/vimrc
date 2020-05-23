@@ -36,27 +36,20 @@ vim setup to expedite your workflow
     
 # Plugins
 
-* [vim-plug](https://github.com/junegunn/vim-plug): Minimalist Vim plugin manager with super-fast parallel installation.
+| Name                                                                             | Description                               | 
+| -------------------------------------------------------------------------------- | ----------------------------------------- |
+| [`vim-plug`](https://github.com/junegunn/vim-plug)                 | Minimalist plugin manager with super-fast parallel installation |
+| [`Nerd Tree`](https://github.com/scrooloose/nerdtree)                 |  Tree explorer plugin for navigating the filesystem | 
+| [`vim-signify`](https://github.com/mhinz/vim-signify)                |  Plugin for showing version control diffs in the sign column |
+| [`auto-pairs`](https://github.com/jiangmiao/auto-pairs)              |  Plugin to insert or delete brackets, parens, quotes in pair |
+| [`vim-better-whitespace`](https://github.com/ntpeters/vim-better-whitespace)  | Better whitespace highlighting for Vim |
+| [`indentLine`](https://github.com/Yggdroot/indentLine)  | Plugin to display the indention levels with thin vertical lines |
+| [`ALE`](https://github.com/dense-analysis/ale) | Check syntax in Vim asynchronously and fix files |
+| [`vim-fugitive`](https://github.com/tpope/vim-fugitive) | A Git wrapper so awesome, it should be illegal |
+| [`vim-gist`](https://github.com/mattn/vim-gist) | Plugin for Gist |
+| [`colorizer`](https://github.com/chrisbra/Colorizer) | color hex codes and color names |
+| [`vim-polygot`](https://github.com/sheerun/vim-polyglot) | A solid language pack for Vim |
 
-* [Nerd Tree](https://github.com/scrooloose/nerdtree): A tree explorer plugin for navigating the filesystem.
-
-* [vim-signify](https://github.com/mhinz/vim-signify): Advanced plugin for showing version control diffs in the "gutter" (sign column)
-
-* [auto-pairs](https://github.com/jiangmiao/auto-pairs): Vim plugin to insert or delete brackets, parens, quotes in pair 
-
-* [vim-better-whitespace](https://github.com/ntpeters/vim-better-whitespace): Better whitespace highlighting for Vim
-
-* [indentLine](https://github.com/Yggdroot/indentLine): A vim plugin to display the indention levels with thin vertical lines
-
-* [ALE](https://github.com/dense-analysis/ale): Check syntax in Vim asynchronously and fix files
-
-* [vim-fugitive](https://github.com/tpope/vim-fugitive): A Git wrapper so awesome, it should be illegal
-
-* [vim-gist](https://github.com/mattn/vim-gist): Vim plugin for Gist
-
-* [colorizer](https://github.com/chrisbra/Colorizer): color hex codes and color names
-
-* [vim-polygot](https://github.com/sheerun/vim-polyglot): A solid language pack for Vim.
 
 # Color schemes
 
