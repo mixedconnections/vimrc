@@ -47,7 +47,7 @@ vim setup to expedite your workflow
 | [`ALE`](https://github.com/dense-analysis/ale) | Check syntax in Vim asynchronously and fix files |
 | [`vim-fugitive`](https://github.com/tpope/vim-fugitive) | A Git wrapper so awesome, it should be illegal |
 | [`vim-gist`](https://github.com/mattn/vim-gist) | Plugin for Gist |
-| [`colorizer`](https://github.com/chrisbra/Colorizer) | color hex codes and color names |
+| [`colorizer`](https://github.com/chrisbra/Colorizer) | Color hex codes and color names |
 | [`vim-polygot`](https://github.com/sheerun/vim-polyglot) | A solid language pack for Vim |
 
 
