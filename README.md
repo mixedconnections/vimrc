@@ -85,6 +85,8 @@ I try to keep things as simple as possible, so I can focus more on coding proble
   [Nerd Tree manual](https://github.com/scrooloose/nerdtree/blob/master/doc/NERDTree.txt) 
   
 * [vim-fugitive cheatsheet](https://gist.github.com/NickSeagull/a44078d8611ff4fa31b75e3aa795f760)
+
+* [git workflow](https://github.com/adrianholovaty/git_workflow)
     
 * [ALE](https://github.com/dense-analysis/ale)
 
