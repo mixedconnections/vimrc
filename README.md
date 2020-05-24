@@ -4,7 +4,7 @@
 
 vim setup to expedite your workflow
 
-# Manually install
+## Manually install
     git clone git@github.com:topunix/vimrc.git
 
     ln -s topunix/.vimrc ~/.vimrc
@@ -14,7 +14,7 @@ vim setup to expedite your workflow
     :source %
     :PlugInstall
 
-# Updates
+## Updates
 
 * init or add new plugin
 
@@ -34,7 +34,7 @@ vim setup to expedite your workflow
     :PlugUpgrade
     ```
     
-# Plugins
+## Plugins
 
 | Name                                                                             | Description                               | 
 | -------------------------------------------------------------------------------- | ----------------------------------------- |
@@ -51,7 +51,7 @@ vim setup to expedite your workflow
 | [`vim-polygot`](https://github.com/sheerun/vim-polyglot) | A solid language pack for Vim |
 
 
-# Color schemes
+## Color schemes
 
 * [dracula-vim](https://github.com/dracula/vim): A dark theme for Vim (displayed below)
 
@@ -63,7 +63,7 @@ vim setup to expedite your workflow
 
 
 
-# Mappings/Shortcuts
+## Mappings/Shortcuts
 
 I try to keep things as simple as possible, so I can focus more on coding problems. Too many mappings and plugins are hard for me to remember. I don't claim that my setup is a brilliant example of vim usage. It just reflects how I use vim.
 
@@ -99,7 +99,7 @@ I try to keep things as simple as possible, so I can focus more on coding proble
   Switch scheme: `map <F1> :call RandomColorScheme()<CR>`\
   Save scheme (updates .vimrc): `map <F2> :call UpdateColor()<CR>`
      
-# Contact
+## Contact
 
 Enjoy it, and if you have any question or comment, feel free to contact me.
 Happy Coding :)
