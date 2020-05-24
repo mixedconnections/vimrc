@@ -53,15 +53,13 @@ vim setup to expedite your workflow
 
 ## Color schemes
 
-* [dracula-vim](https://github.com/dracula/vim): A dark theme for Vim (displayed below)
-
-* [candid-vim](https://github.com/flrnd/candid.vim): A dark colorscheme with vibrant colors
-
-* [plastic-vim](https://github.com/flrnd/plastic.vim): VSCode Plastic theme port for vim/neovim
+| Name                                                                             | Description                               | 
+| -------------------------------------------------------------------------------- | ----------------------------------------- |
+| [`dracula-vim`](https://github.com/dracula/vim)                                  | A dark theme for Vim (displayed below)    |
+| [`candid-vim`](https://github.com/flrnd/candid.vim)                              | A dark colorscheme with vibrant colors    |
+| [`plastic-vim`](https://github.com/flrnd/plastic.vim)                            | VSCode Plastic theme port for vim/neovim  |
 
 <img width="1227" alt="screenshot" src="https://user-images.githubusercontent.com/833824/77176585-b147c500-6a9a-11ea-86e3-2444f0f74878.png">
-
-
 
 ## Mappings/Shortcuts
 
