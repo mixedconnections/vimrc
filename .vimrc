@@ -11,6 +11,7 @@ Plug 'mattn/vim-gist'
 Plug 'jiangmiao/auto-pairs'
 Plug 'ntpeters/vim-better-whitespace'
 Plug 'Yggdroot/indentLine'
+Plug 'Yggdroot/hiPairs'
 Plug 'dense-analysis/ale'
 Plug 'chrisbra/colorizer'
 " Language bundles
