@@ -42,6 +42,7 @@ vim setup to expedite your workflow
 | [`Nerd Tree`](https://github.com/scrooloose/nerdtree)                 |  Tree explorer plugin for navigating the filesystem | 
 | [`vim-signify`](https://github.com/mhinz/vim-signify)                |  Plugin for showing version control diffs in the sign column |
 | [`auto-pairs`](https://github.com/jiangmiao/auto-pairs)              |  Plugin to insert or delete brackets, parens, quotes in pair |
+| [`hiPairs`](https://github.com/Yggdroot/hiPairs) |  Highlights the pair surrounding the current cursor position |
 | [`vim-better-whitespace`](https://github.com/ntpeters/vim-better-whitespace)  | Better whitespace highlighting for Vim |
 | [`indentLine`](https://github.com/Yggdroot/indentLine)  | Plugin to display the indention levels with thin vertical lines |
 | [`ALE`](https://github.com/dense-analysis/ale) | Check syntax in Vim asynchronously and fix files |
