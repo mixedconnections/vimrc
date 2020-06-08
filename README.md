@@ -2,7 +2,7 @@
 
 ![This project is personal](https://img.shields.io/badge/status-personal-important.svg)
 
-vim setup to expedite your workflow
+My vim8 setup to expedite my workflow. Planning on moving to [SpaceVim](https://github.com/SpaceVim/SpaceVim) as my IDE after I have explored a few more plugins.  
 
 ## Manually install
     git clone git@github.com:topunix/vimrc.git
