@@ -2,7 +2,7 @@
 
 ![This project is personal](https://img.shields.io/badge/status-personal-important.svg)
 
-My vim8 setup to expedite my workflow. Planning on moving to [SpaceVim](https://spacevim.org) as my IDE after I've explored a few more plugins.  
+My vim8 setup to expedite my workflow. Planning on moving to [SpaceVim](https://spacevim.org) as my IDE after I explore a few more plugins.  
 
 ## Manually install
     git clone git@github.com:topunix/vimrc.git
