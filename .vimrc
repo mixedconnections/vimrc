@@ -7,6 +7,7 @@ Plug 'mhinz/vim-signify'
 Plug 'tpope/vim-fugitive'
 Plug 'mattn/webapi-vim'
 Plug 'mattn/vim-gist'
+Plug 'arp242/undofile_warn.vim'
 " Syntax plugins
 Plug 'jiangmiao/auto-pairs'
 Plug 'ntpeters/vim-better-whitespace'
@@ -14,6 +15,7 @@ Plug 'Yggdroot/indentLine'
 Plug 'Yggdroot/hiPairs'
 Plug 'dense-analysis/ale'
 Plug 'chrisbra/colorizer'
+Plug 'RRethy/vim-illuminate'
 " Language bundles
 Plug 'sheerun/vim-polyglot'
 " Color schemes
@@ -56,6 +58,12 @@ set smartindent
 set softtabstop=4
 set shiftwidth=4
 set expandtab
+
+" undofile
+set undofile undodir=~/.undo
+if !isdirectory(expand(&undodir))
+  call mkdir(expand(&undodir), "p")
+endif
 
 " Always have a status bar
 set laststatus=2
