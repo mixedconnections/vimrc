@@ -49,6 +49,8 @@ My vim8 setup to expedite my workflow. Planning on moving to [SpaceVim](https://
 | [`vim-fugitive`](https://github.com/tpope/vim-fugitive) | A Git wrapper so awesome, it should be illegal |
 | [`vim-gist`](https://github.com/mattn/vim-gist) | Plugin for Gist |
 | [`colorizer`](https://github.com/chrisbra/Colorizer) | Color hex codes and color names |
+| [`undofile_warn`](https://github.com/arp242/undofile_warn.vim) | Warn when using the undofile |
+| [`vim-illuminate`](https://github.com/RRethy/vim-illuminate) | Highlights other uses of the word under the cursor | 
 | [`vim-polygot`](https://github.com/sheerun/vim-polyglot) | A solid language pack for Vim |
 
 
