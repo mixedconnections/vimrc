@@ -51,6 +51,8 @@ My vim8 setup to expedite my workflow. Planning on moving to [SpaceVim](https://
 | [`colorizer`](https://github.com/chrisbra/Colorizer) | Color hex codes and color names |
 | [`undofile_warn`](https://github.com/arp242/undofile_warn.vim) | Warn when using the undofile |
 | [`vim-illuminate`](https://github.com/RRethy/vim-illuminate) | Highlights other uses of the word under the cursor | 
+| [`vim-signature`](https://github.com/kshenoy/vim-signature) | Plugin to toggle, display and navigate marks |
+| [`vim-bracketed-paste`](https://github.com/ConradIrwin/vim-bracketed-paste) | Transparent pasting (no more :set paste!) |
 | [`vim-polygot`](https://github.com/sheerun/vim-polyglot) | A solid language pack for Vim |
 
 
