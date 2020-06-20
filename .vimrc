@@ -8,6 +8,8 @@ Plug 'tpope/vim-fugitive'
 Plug 'mattn/webapi-vim'
 Plug 'mattn/vim-gist'
 Plug 'arp242/undofile_warn.vim'
+Plug 'kshenoy/vim-signature'
+Plug 'ConradIrwin/vim-bracketed-paste'
 " Syntax plugins
 Plug 'jiangmiao/auto-pairs'
 Plug 'ntpeters/vim-better-whitespace'
