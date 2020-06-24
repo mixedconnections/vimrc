@@ -10,6 +10,7 @@ Plug 'mattn/vim-gist'
 Plug 'arp242/undofile_warn.vim'
 Plug 'kshenoy/vim-signature'
 Plug 'ConradIrwin/vim-bracketed-paste'
+Plug 'cohama/agit.vim'
 " Syntax plugins
 Plug 'jiangmiao/auto-pairs'
 Plug 'ntpeters/vim-better-whitespace'
