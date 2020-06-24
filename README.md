@@ -47,6 +47,7 @@ My vim8 setup to expedite my workflow. Planning on moving to [SpaceVim](https://
 | [`indentLine`](https://github.com/Yggdroot/indentLine)  | Plugin to display the indention levels with thin vertical lines |
 | [`ALE`](https://github.com/dense-analysis/ale) | Check syntax in Vim asynchronously and fix files |
 | [`vim-fugitive`](https://github.com/tpope/vim-fugitive) | A Git wrapper so awesome, it should be illegal |
+| [`agit.vim`](https://github.com/cohama/agit.vim) | A powerful Git log viewer  |
 | [`vim-gist`](https://github.com/mattn/vim-gist) | Plugin for Gist |
 | [`colorizer`](https://github.com/chrisbra/Colorizer) | Color hex codes and color names |
 | [`undofile_warn`](https://github.com/arp242/undofile_warn.vim) | Warn when using the undofile |
