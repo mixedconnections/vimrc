@@ -97,7 +97,7 @@ filetype plugin on    " Enable filetype-specific plugins
 " auto reload vimrc when editing it
 autocmd! bufwritepost .vimrc source ~/.vimrc
 
-function RandomColorScheme()
+function! RandomColorScheme()
     let mycolors = split(globpath(&rtp,"**/colors/*.vim"),"\n") 
     exe 'so ' . mycolors[localtime() % len(mycolors)]
     unlet mycolors
