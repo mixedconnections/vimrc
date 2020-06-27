@@ -13,7 +13,7 @@ Plug 'ConradIrwin/vim-bracketed-paste'
 Plug 'cohama/agit.vim'
 Plug 'junegunn/vim-peekaboo'
 " Syntax plugins
-Plug 'jiangmiao/auto-pairs'
+Plug 'Raimondi/delimitMate'
 Plug 'ntpeters/vim-better-whitespace'
 Plug 'Yggdroot/indentLine'
 Plug 'Yggdroot/hiPairs'
