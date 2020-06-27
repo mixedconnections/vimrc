@@ -41,7 +41,7 @@ My vim8 setup to expedite my workflow. Planning on moving to [SpaceVim](https://
 | [`vim-plug`](https://github.com/junegunn/vim-plug)                 | Minimalist plugin manager with super-fast parallel installation |
 | [`Nerd Tree`](https://github.com/scrooloose/nerdtree)                 |  Tree explorer plugin for navigating the filesystem | 
 | [`vim-signify`](https://github.com/mhinz/vim-signify)                |  Plugin for showing version control diffs in the sign column |
-| [`auto-pairs`](https://github.com/jiangmiao/auto-pairs)              |  Plugin to insert or delete brackets, parens, quotes in pair |
+| [`delimitMate`](https://github.com/Raimondi/delimitMate)              |  Plugin to insert or delete brackets, parens, quotes in pair |
 | [`hiPairs`](https://github.com/Yggdroot/hiPairs) |  Highlights the pair surrounding the current cursor position |
 | [`vim-peekaboo`](https://github.com/junegunn/vim-peekaboo) | See the contents of the registers  |
 | [`vim-better-whitespace`](https://github.com/ntpeters/vim-better-whitespace)  | Better whitespace highlighting for Vim |
