@@ -48,7 +48,7 @@ set wildmenu            " wild char completion menu
 set wildignore=*.pyc,*.o,*.obj,*.svn,*.swp,*.class,*.hg,*.DS_Store,*.min.*
 
 " The endless search for the perfect colorscheme
-colorscheme dracula
+colorscheme morning
 
 " disable sound on errors
 set visualbell
@@ -57,6 +57,9 @@ set t_vb=
 " Indenting
 set autoindent
 set smartindent
+
+" make backspace work like you expect
+set backspace=indent,eol,start
 
 " A tab produces a 4-space indentation
 set softtabstop=4
