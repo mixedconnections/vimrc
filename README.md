@@ -72,6 +72,21 @@ My vim8 setup to expedite my workflow. Planning on moving to [SpaceVim](https://
 
 I try to keep things as simple as possible, so I can focus more on coding problems. Too many mappings and plugins are hard for me to remember. I don't claim that my setup is a brilliant example of vim usage. It just reflects how I use vim.
 
+* I've set my leader to the comma. 
+
+Command | Description
+--- | ---
+,ev  |  vsplit $MYVIMRC (vimrc is auto reloaded)
+,ss  |  toggle/untoggle spell checking
+z=   |  to get suggestions -- during spell check
+]s   |  to get next misspelled word 
+[s   |  to get previous one
+
+
+
+
+
+
 * [Nerd Tree](https://github.com/scrooloose/nerdtree):
 
   Toggle NERDTree view: `map <F3> :NERDTreeToggle<CR>`
